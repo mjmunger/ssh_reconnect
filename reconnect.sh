@@ -2,11 +2,11 @@
 help() {
 	cat <<EOF
 
-SSH Reconnect (Michael Munger <mj@hph.io>)
-
-  Continually ping a host until it's up, then attempt to connect via SSH.
+SSH Reconnect - continuously ping a host until it's up, then connect.
 
 Usage: reconnect.sh [host]
+
+File issues on github: https://github.com/mjmunger/ssh_reconnect
 
 EOF
 }
